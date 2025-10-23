@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-app
+  name: projeto-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: hello-app
+      app: projeto-app
   template:
     metadata:
       labels:
-        app: hello-app
+        app: projeto-app
     spec:
       containers:
-      - name: hello-app
-        image: henrique545/hello-app:latest 
+      - name: projeto-app
+        image: henrique545/projeto-app:latest 
         ports:
         - containerPort: 8000

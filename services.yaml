@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-app-service
+  name: projeto-app-service
 spec:
   type: ClusterIP 
   selector:
-    app: hello-app
+    app: projeto-app
   ports:
   - protocol: TCP
     port: 8080
