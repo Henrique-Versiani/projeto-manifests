@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: projeto-app
-        image: henrique545/projeto-app:2fe23280db4e8ce0027ce561fbc4c8bf13d67979
+        image: henrique545/projeto-app:54689b621477064f3916fe1b0b38c8eec1fb4dff
         ports:
         - containerPort: 8000
